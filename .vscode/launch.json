@@ -1,0 +1,34 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: 当前文件",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            // "args": [
+            //     "--model_path", "/root/zxy/InterHDM/motion-diffusion-model/save/body_obj_0803/model000030000.pt",
+            //     "--text_prompt", "a person sit on a black chair" 
+            // ]
+
+            // "args": [
+            //     "--model_path", "/root/zxy/InterHDM/motion-diffusion-model/save/vertice_0727/model000120000.pt",
+            //     "--input_text", "/root/zxy/InterHDM/motion-diffusion-model/assets/example_text_prompts.txt"
+            // ]
+                
+
+            // "args": [
+            //     "--save_dir", "save/my_behave", "--dataset", "humanml","--vertice", "1"
+            // ]
+
+            "args": [
+                "--model_path", "/root/zxy/InterHDM/motion-diffusion-model/save/body_obj_0803/model000030000.pt"
+            ]
+        }
+    ]
+}
