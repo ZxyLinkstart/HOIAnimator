@@ -1,4 +1,4 @@
-name: mdm
+name: HOIAnimator
 channels:
   - pytorch
   - anaconda
