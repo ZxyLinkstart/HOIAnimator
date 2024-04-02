@@ -20,7 +20,7 @@ sudo apt install ffmpeg
 Setup conda env:
 ```shell
 conda env create -f environment.yml
-conda activate mdm
+conda activate HOIAnimator
 python -m spacy download en_core_web_sm
 pip install git+https://github.com/openai/CLIP.git
 ```
