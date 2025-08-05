@@ -24,4 +24,8 @@ conda activate HOIAnimator
 python -m spacy download en_core_web_sm
 pip install git+https://github.com/openai/CLIP.git
 ```
-Coming soon!!!!
+
+
+Finally, this work has been extended for journal submission, with new modules introduced to generate more refined HOI animations. The complete implementation will be fully open‑sourced upon submission.
+
+（Since I have graduated with a master's degree and my research direction has changed, my junior has taken over the job. I'm sorry to have kept you waiting for so long.）
